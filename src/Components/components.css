@@ -1,0 +1,119 @@
+/* Navigation Section */
+header .navbar {
+  background-color: rgba(0, 0, 0, 0.845) !important;
+  padding: 20px 0 !important;
+
+  }
+  .navbar .navbar-nav .nav-link {
+    font-size: 1.7rem;
+    padding-right: 20px;
+    color: white;
+    transition: all 1s ease-in-out;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: var(--primary-text);
+  }
+  header .navbar-toggler i {
+    color: white;
+    font-size: 3rem;
+  }
+  header .navbar-toggler:focus {
+    box-shadow: none;
+    text-decoration: none;
+  }
+  
+
+  /* Main */
+  
+  /* Hero Section */
+  #hero {
+    position: relative;
+    background: url("../Assets/bg/bg-1.jpg");
+    background-size: cover;
+    background-position: 30% 30%;
+    min-height: 100vh;
+    width: 100%;
+  }
+  #hero p {
+    color: white;
+  }
+  .text {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+  }
+  .hero-text {
+    width: 60%;
+  }
+  
+  /* Main-product Section */
+  #main-product p {
+    color: rgba(3, 3, 3, 0.423);
+  }
+  #main .main-product-left {
+    border-right: 2px solid rgb(240, 21, 141);
+  }
+  .features-text .bluetooth {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  /* Feature Section */
+  #features p {
+    color: rgba(3, 3, 3, 0.423);
+    transition: all 0.2s ease-in;
+  }
+  #features h5 {
+    transition: all 0.2s ease-in;
+  }
+  #features p:hover,
+  #features h5:hover {
+    color: rgb(240, 21, 141);
+  }
+  
+  /* Products Section */
+  #products .product-card:hover {
+    transform: scale(1.2);
+  }
+  /* Contact Section */
+  #contact {
+    font-size: 1.6rem;
+  }
+  
+  #contact input,
+  #contact textarea {
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 20%);
+    font-size: 1.6rem;
+  }
+  .form-group textarea {
+    margin: 20px 0px;
+    width: 100%;
+  }
+  
+  /* Footer Section */
+  #footer {
+    background-color: black;
+    color: #fff7f7;
+  }
+  #footer ul li {
+    font-size: 1.6rem;
+    padding-bottom: 0.8rem;
+    color: #fff7f7;
+    transition: all 0.5s ease-in-out;
+  }
+  #footer h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    transition: all 0.2s ease-in;
+    padding-bottom: 2rem !important;
+  }
+  #footer ul li i {
+    font-size: 1.8rem;
+    transition: all 0.2s ease-in;
+  }
+  #footer ul li:hover,
+  #footer ul li i:hover,
+  #footer h3:hover {
+    color: rgb(240, 21, 141);
+  }
+  

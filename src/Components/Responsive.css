@@ -1,0 +1,101 @@
+@media (max-width: 420px) {
+  h1 {
+    font-size: 3rem;
+  }
+  /* Navigation Section  */
+  header .navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding-bottom: 2rem;
+  }
+  .navbar-toggler i {
+    color: white;
+    font-size: 2rem;
+  }
+  /* Main Section */
+  #hero {
+    position: relative;
+    background-size: cover;
+    background-position: 44% 50% !important;
+  }
+  .text {
+    /* text-align: center; */
+    position: absolute;
+    top: 20% !important;
+    left: 14%;
+  }
+  .hero-text {
+    width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 7rem;
+  }
+  /* Navigation Section  */
+  header .navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding-bottom: 2rem;
+  }
+  .navbar-toggler i {
+    color: white;
+    font-size: 2rem;
+  }
+
+  /* Hero Section */
+  #hero {
+    background-position: 30% 50%;
+  }
+  .text {
+    top: 30%;
+  }
+  .hero-text {
+    width: 90%;
+  }
+}
+@media (min-width: 769px) and (max-width: 997px) {
+  /* Navigation Section  */
+  header .navbar {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    text-align: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding-bottom: 2rem;
+  }
+  .navbar-toggler i {
+    color: white;
+    font-size: 2rem;
+  }
+  /* Main Section */
+  #hero {
+    position: relative;
+    background-size: cover;
+    background-position: 29% 14%;
+    height: 200px !important;
+    width: 100%;
+  }
+  #hero p {
+    padding: 30px 0 !important;
+    line-height: 3rem;
+  }
+  .text {
+    position: absolute;
+    top: 30% !important;
+    left: 14%;
+  }
+  .hero-text {
+    width: 90%;
+  }
+}
+@media (min-width: 998px) and (max-width: 1199px) {
+  html {
+    font-size: 8px !important;
+  }
+  /* Navigation Section  */
+  /* Hero Section */
+}
